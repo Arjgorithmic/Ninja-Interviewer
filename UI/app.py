@@ -62,7 +62,7 @@ else:
     if len(st.session_state.messages) == 0:
         st.session_state.messages.append({
             "role": "assistant",
-            "content": "I'm ExcelInterviewer AI. I'll ask you a few personal questions to get to know you, followed by 4 real-world Excel problems. Answer as if you're in a live interview."
+            "content": "I'm Ninja Interviewer AI. I'll ask you a few personal questions to get to know you, followed by 4 real-world Excel problems. Answer as if you're in a live interview."
         })
 
     # Display chat history
