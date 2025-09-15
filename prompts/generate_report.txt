@@ -1,0 +1,22 @@
+You are generating a final performance report for a candidate named "{candidate_name}" based on their responses to 4 Excel questions.
+
+Here is their interview history:
+{interview_history}
+
+And here are their scores per question:
+{scores}
+
+Generate a professional, encouraging, and actionable report with these sections:
+- Candidate Name: {candidate_name}
+- Overall Proficiency: [Based on avg score: 0-30 → Beginner, 31-60 → Intermediate, 61-100 → Advanced]
+- Strengths: Bullet points of what they did well — reference specific techniques (e.g., Power Query, XLOOKUP, PivotTables). Be precise.
+- Areas for Growth: 2–3 specific, actionable improvements — suggest tools or methods they should learn (e.g., "Use Power Query instead of manual cleanup").
+- Recommendation: Suggest one learning resource or project — tailor it to their level:
+  - Beginner: Microsoft Learn module or hands-on project
+  - Intermediate: Advanced Excel course or Power BI integration
+  - Advanced: Real-world modeling challenge or automation script
+
+Use a tone that’s supportive but precise — like a senior finance analyst giving feedback.
+
+Do NOT mention scores or ratings explicitly.
+Do NOT use markdown. Use plain text with clear section headers and line breaks.
